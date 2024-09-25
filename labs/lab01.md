@@ -83,5 +83,4 @@ jobs:
         run: echo 'The time was ${{ steps.hello.outputs.time }}.'   
 ```
 </details>
-
-# Deucemania wuz here! 
+# Deucemania wuz here
