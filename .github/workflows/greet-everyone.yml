@@ -8,7 +8,7 @@ on:
       name:
         description: 'What is your name?'
         required: true
-        type: string
+        type: 'deucey'
 
   workflow_dispatch:
     inputs:
