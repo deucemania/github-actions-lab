@@ -84,4 +84,4 @@ jobs:
 ```
 </details>
 
-# The Deuce wuz here! 
+# Deucemania wuz here! 
