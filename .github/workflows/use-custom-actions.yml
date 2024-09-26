@@ -53,4 +53,4 @@ jobs:
         with:
           repoToken: ${{secrets.GITHUB_TOKEN}}
           catFact: ${{steps.cat.outputs.fact}}
-          issue-title: "A joke for you from custom actions workflow - Docker"  
+          issueTitle: "A joke for you from custom actions workflow - Docker"  
