@@ -1,5 +1,4 @@
 name: 05-3. Use Custom Actions (JS & Doker)
-
 on:
   pull_request:
     types: [labeled]
@@ -32,7 +31,7 @@ jobs:
         with:
           repo-token: ${{secrets.GITHUB_TOKEN}}
           joke: ${{steps.jokes.outputs.joke-output}}
-          issue-title: "A joke for you from ${{ github.actor }}"      
+          issue-title: "A joke for you from custom actions workflow - JS"  
 
   docker-custom-actions:
     runs-on: ubuntu-latest
@@ -54,4 +53,4 @@ jobs:
         with:
           repoToken: ${{secrets.GITHUB_TOKEN}}
           catFact: ${{steps.cat.outputs.fact}}
-          issueTitle: "A cat fact for you from ${{ github.repository_owner }}"
+          issue-title: "A joke for you from custom actions workflow - Docker"  
